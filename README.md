@@ -66,19 +66,19 @@ The application uses the following water quality measurements:
 ```text
 Water-Potability-Prediction/
 │
-├── app.py
-├── project.ipynb
-├── data/
-│   └── water_quality.csv
-│
+├── .streamlit/
 ├── models/
-│   ├── knn_model.pkl
-│   ├── logistic_model.pkl
-│   ├── decisiontree_model.pkl
-│   └── svm_model.pkl
+│   ├── knn_modelf.pkl
+│   ├── logistic_modelf.pkl
+│   ├── decisiontree_modelf.pkl
+│   └── svm_modelf.pkl
 │
-├── requirements.txt
-└── README.md
+├── deploymentzz.py
+├── project.ipynb
+├── updated.csv
+├── test.py
+├── README.md
+└── image assets
 ```
 
 ---
@@ -121,7 +121,7 @@ pip install streamlit pandas numpy scikit-learn imbalanced-learn matplotlib seab
 Start the Streamlit application:
 
 ```bash
-streamlit run app.py
+streamlit run deploymentzz.py
 ```
 
 After running the command, Streamlit will generate a local URL similar to:
